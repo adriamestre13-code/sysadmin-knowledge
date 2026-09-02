@@ -25,10 +25,7 @@ El objetivo es abarcar desde la resolución de incidencias del día a día en ni
 
 ## 📂 Estructura del Repositorio
 
-* `/01-helpdesk/` - Guías de soporte técnico, atención al usuario y resolución de incidencias rápido.
-* `/02-sysadmin/` - Documentación avanzada de servidores, servicios y arquitectura.
-* `/03-scripts/` - Scripts útiles en PowerShell y Bash para automatizar tareas repetitivas.
-* `/04-templates/` - Plantillas de informes de incidentes y procedimientos operativos estándar (SOP).
+
 
 ---
 
