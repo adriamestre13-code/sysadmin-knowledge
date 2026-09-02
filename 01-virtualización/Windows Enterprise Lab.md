@@ -26,7 +26,8 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 ### 1. Nombre y Sistema Operativo
 * **Tipo:** Microsoft Windows
 * **Versión:** Windows 11 (64-bit)
-> **¿Por qué?** Permite que VirtualBox active automáticamente perfiles de compatibilidad y controladores optimizados para este SO.
+<img width="488" height="36" alt="Captura de pantalla 2026-08-29 173910" src="https://github.com/user-attachments/assets/c5ec3187-bb7d-416e-8035-e6a4aa251553" />
+* **IMPORTANTE:** Desactivar la instalación atendida, esto nos permitirá tener control sobre la instalación del SO.
 
 ### 2. Memoria RAM y Procesadores (CPU)
 * **RAM:** 4096 MB (4 GB) mínimo / 8192 MB (8 GB) recomendado.
