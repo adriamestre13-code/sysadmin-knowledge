@@ -46,12 +46,18 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 ### 4. Disco Duro Virtual
 * **Tamaño:** 64 GB mínimo.
 * **Tipo de archivo:** VDI (VirtualBox Disk Image).
-* **Reservado dinámicamente:** Seleccionado.
+* **Espacio asignado:** Desmarcar la opción de Reservar completamente.
 > **¿Por qué?** El espacio asignado dinámicamente solo consume espacio real en tu disco físico a medida que la VM llena el espacio, optimizando el almacenamiento del Host.
+>
+> <img width="911" height="719" alt="Captura de pantalla 2026-09-02 191110" src="https://github.com/user-attachments/assets/6d7fdd41-eaf4-4eaa-99b6-bc3a99a2edd5" />
+
 
 ### 5. Configuración de Red
-* **Modo de red:** NAT (para acceso a internet) o *Bridge* (para simular un equipo real en tu red local).
+* **Modo de red:** NAT (para acceso a internet) o *Bridge* (para simular un equipo real en tu red local). La arquitectura de red será explicada más adelante.
 > **¿Por qué?** NAT aísla la máquina virtual del resto de tus dispositivos domésticos mientras le da acceso a la red para actualizaciones.
+>
+> <img width="913" height="719" alt="Captura de pantalla 2026-09-02 191330" src="https://github.com/user-attachments/assets/9fcd6ab1-a812-4786-a5c8-19d6ed2b64cd" />
+
 
 ---
 
@@ -67,4 +73,8 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 
 ## 📌 Configuración Inicial (OOBE)
 * Elige configuración para **Uso de trabajo o escuela** si vas a unir el equipo a un dominio (Active Directory) en el futuro, o configuración personal para pruebas generales.
-* Instala **VirtualBox Guest Additions** (*Dispositivos > Insertar imagen de CD de las Guest Additions*) una vez iniciado el escritorio para habilitar la resolución automática de pantalla y el portapapeles compartido.
+* Instala **VirtualBox Guest Additions** (*Dispositivos > Insertar imagen de CD de las Guest Additions (En mi MV no sale porque ya está instalado)*) una vez iniciado el escritorio para habilitar la resolución automática de pantalla y el portapapeles compartido.
+
+<img width="1087" height="707" alt="Captura de pantalla 2026-09-02 191511" src="https://github.com/user-attachments/assets/d06efd8f-08b9-4fdb-b2c9-a1531d590538" />
+<img width="1088" height="705" alt="Captura de pantalla 2026-09-02 191557" src="https://github.com/user-attachments/assets/41fd6964-7326-40b7-875e-87127615f85b" />
+
