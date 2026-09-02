@@ -48,7 +48,7 @@ Se instala como **una aplicación común** dentro de un sistema operativo anfitr
 
 ## 🛠️ Laboratorio Práctico: Configuración de Entorno
 
-Para seguir las prácticas del curso y montar entornos de prueba para Help Desk y Sysadmin, se utiliza **Oracle VirtualBox** por ser gratuito, multiplataforma y de código abierto.
+Para seguir las prácticas del curso y montar entornos de prueba para Help Desk y Sysadmin, se utiliza **Oracle VirtualBox** (GPLv2) por ser gratuito, multiplataforma y de código abierto.
 
 ### Requisitos mínimos sugeridos para el equipo Host:
 * **CPU:** Procesador de 64 bits (2.0 GHz o superior).
