@@ -26,13 +26,17 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 ### 1. Nombre y Sistema Operativo
 * **Tipo:** Microsoft Windows
 * **Versión:** Windows 11 (64-bit)
-<img width="488" height="36" alt="Captura de pantalla 2026-08-29 173910" src="https://github.com/user-attachments/assets/c5ec3187-bb7d-416e-8035-e6a4aa251553" />
-* **IMPORTANTE:** Desactivar la instalación atendida, esto nos permitirá tener control sobre la instalación del SO.
+<img width="911" height="718" alt="Captura de pantalla 2026-09-02 190631" src="https://github.com/user-attachments/assets/3fbdec91-ea96-40d4-a058-b5be22aa2ece" />
+
+* **IMPORTANTE:** Desactivar la instalación desatendida, esto nos permitirá tener control total sobre la instalación del SO.
 
 ### 2. Memoria RAM y Procesadores (CPU)
 * **RAM:** 4096 MB (4 GB) mínimo / 8192 MB (8 GB) recomendado.
 * **CPUs:** 2 vCPUs mínimo.
 > **¿Por qué?** Windows 11 exige un mínimo de 4 GB de RAM y 2 núcleos para funcionar. Darle menos provocará un rendimiento extremadamente lento o errores en el instalador.
+>
+> <img width="911" height="718" alt="Captura de pantalla 2026-09-02 190832" src="https://github.com/user-attachments/assets/848659d4-ba4e-4990-bd25-ee9bc20d54a4" />
+
 
 ### 3. TPM 2.0 y Secure Boot
 * **Habilitar EFI:** Activado.
