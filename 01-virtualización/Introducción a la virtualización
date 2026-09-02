@@ -1,1 +1,66 @@
-Hey
+# 🖥️ Introducción a la Virtualización
+
+Documentación y notas basadas en la sección de virtualización del curso *Practical Help Desk* de TCM Security (por Andrew Bellini).
+
+---
+
+## 📌 ¿Qué es la Virtualización?
+
+La virtualización es la tecnología que permite crear entornos informáticos simulados o "máquinas virtuales" (VMs) sobre un único equipo físico (llamado *Host*). 
+
+En lugar de requerir varios equipos físicos para ejecutar distintos sistemas operativos, la virtualización abstrae el hardware subyacente y lo divide de forma lógica entre múltiples instancias virtuales (*Guests*).
+
+### Términos clave:
+* **Host (Anfitrión):** La computadora física real, con su procesador, memoria RAM, disco y tarjeta de red.
+* **Guest (Invitado):** La máquina virtual que se ejecuta dentro del Host. Se comporta exactamente como un equipo físico independiente.
+* **Imagen ISO:** Archivo que contiene el instalador de un sistema operativo (por ejemplo, Windows 11 o Ubuntu Linux) y que se inserta en la lectora de CD/DVD virtual para instalar el SO en la VM.
+
+---
+
+## ⚙️ ¿Qué es un Hipervisor (Hypervisor)?
+
+El **hipervisor** (o *Virtual Machine Monitor* - VMM) es la capa de software que posibilita la virtualización. Se encarga de gestionar el hardware físico y distribuirlo dinámicamente entre las distintas máquinas virtuales.
+
+Existen dos tipos principales de hipervisores:
+
+### 1. Hipervisor Tipo 1 (Bare-Metal)
+Se instala y ejecuta **directamente sobre el hardware físico** de la máquina, sin necesidad de un sistema operativo previo.
+* **Uso principal:** Entornos empresariales, centros de datos y servidores de producción.
+* **Rendimiento:** Extremadamente eficiente y de bajo impacto.
+* **Ejemplos:** VMware ESXi, Proxmox VE, Microsoft Hyper-V (en servidor), Xen.
+
+### 2. Hipervisor Tipo 2 (Hosted)
+Se instala como **una aplicación común** dentro de un sistema operativo anfitrión (Windows, macOS o Linux).
+* **Uso principal:** Entornos de prueba, laboratorios de aprendizaje, desarrollo y soporte técnico local.
+* **Rendimiento:** Ligera pérdida de eficiencia debido a la capa del sistema operativo base.
+* **Ejemplos:** Oracle VirtualBox, VMware Workstation / Player, UTM / Parallels (macOS).
+
+---
+
+## 💡 Ventajas de la Virtualización en IT y Help Desk
+
+1. **Aislamiento y Pruebas Seguras:** Permite probar software no confiable, scripts o configuraciones sin arriesgar el sistema operativo principal ni la red corporativa.
+2. **Eficiencia de Costes:** Reduce la necesidad de adquirir hardware dedicado para cada función o servidor.
+3. **Instatáneas (Snapshots):** Capacidad de guardar el estado exacto de una máquina virtual antes de realizar un cambio crítico. Si algo falla, se puede revertir al estado anterior en segundos.
+4. **Portabilidad:** Una máquina virtual se puede exportar e importar fácilmente a otros equipos.
+
+---
+
+## 🛠️ Laboratorio Práctico: Configuración de Entorno
+
+Para seguir las prácticas del curso y montar entornos de prueba para Help Desk y Sysadmin, se utiliza **Oracle VirtualBox** por ser gratuito, multiplataforma y de código abierto.
+
+### Requisitos mínimos sugeridos para el equipo Host:
+* **CPU:** Procesador de 64 bits (2.0 GHz o superior).
+* **Virtualización por Hardware activada:** Habilitar **VT-x** (Intel) o **AMD-V** en la BIOS/UEFI.
+* **RAM:** Mínimo 8 GB (16 GB recomendado para ejecutar múltiples VMs a la vez).
+* **Almacenamiento:** Al menos 100 GB de espacio libre (preferiblemente SSD).
+
+---
+
+## 📂 Recursos y Próximos Pasos
+
+* **Herramientas de Hypervisor Tipo 2:** [Oracle VirtualBox](https://www.virtualbox.org/)
+* **Sistemas para Laboratorio:**
+  * ISO de Windows 10/11 o Windows Server (evaluación de Microsoft).
+  * ISO de Ubuntu Linux Desktop/Server.
