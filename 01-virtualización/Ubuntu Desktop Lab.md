@@ -74,4 +74,6 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 <img width="638" height="461" alt="Captura de pantalla 2026-09-03 104031" src="https://github.com/user-attachments/assets/9c1c3a65-cfec-4f09-b09b-a0e8f16d194e" />
 <img width="638" height="464" alt="Captura de pantalla 2026-09-03 104055" src="https://github.com/user-attachments/assets/cbe86f71-7de6-434d-b3e1-a33f9a39ed20" />
 <img width="638" height="463" alt="Captura de pantalla 2026-09-03 105022" src="https://github.com/user-attachments/assets/6246ae29-4238-497f-a7f5-6859d78b53fa" />
+<img width="611" height="386" alt="Captura de pantalla 2026-09-03 112429" src="https://github.com/user-attachments/assets/12da77de-8989-4372-b503-02c35a21d2c4" />
+<img width="895" height="715" alt="Captura de pantalla 2026-09-03 112733" src="https://github.com/user-attachments/assets/a4b27e3f-b174-47b7-af34-560ee6a3a825" />
 
