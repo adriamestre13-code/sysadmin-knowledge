@@ -1,4 +1,3 @@
-<img width="638" height="463" alt="Captura de pantalla 2026-09-03 105022" src="https://github.com/user-attachments/assets/ab3440df-9fac-4777-b451-484e8accfe9f" />
 # 🐧 Creación de una Máquina Virtual con Ubuntu Desktop
 
 Guía paso a paso para desplegar Ubuntu Desktop en Oracle VirtualBox y la explicación técnica de cada decisión.
