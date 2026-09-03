@@ -4,7 +4,7 @@ Guía paso a paso para desplegar Windows 11 Enterprise en Oracle VirtualBox y la
 
 ---
 
-## 🎯 ¿Por qué Windows 11 Enterprise?
+##  ¿Por qué Windows 11 Enterprise?
 
 A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye herramientas avanzadas indispensables para entornos corporativos y de administración de sistemas:
 * **AppLocker y Windows Defender Application Control:** Control granular sobre qué aplicaciones se ejecutan.
@@ -14,7 +14,7 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 
 ---
 
-## 🛠️ Requisitos Previos
+##  Requisitos Previos
 
 * **Oracle VirtualBox**.
 * [**ISO de evaluación de Windows 11 Enterprise**](https://www.microsoft.com/es-es/evalcenter/download-windows-11-enterprise) (descargable desde el sitio oficial de Microsoft Evaluation Center).
@@ -57,7 +57,7 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 
 ---
 
-## 🚀 Proceso de Instalación
+##  Proceso de Instalación
 
 1. Inicia la VM y selecciona el archivo ISO de Windows 11 cuando lo solicite.
 2. Presiona cualquier tecla cuando aparezca *“Press any key to boot from CD or DVD...”*.
@@ -69,7 +69,7 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 
 ---
 
-## 📌 Configuración Inicial (OOBE)
+##  Configuración Inicial (OOBE)
 * Elige configuración para **Uso de trabajo o escuela** si vas a unir el equipo a un dominio (Active Directory) en el futuro, o configuración personal para pruebas generales.
 * Instala **VirtualBox Guest Additions** (*Dispositivos > Insertar imagen de CD de las Guest Additions*) una vez iniciado el escritorio para habilitar la resolución automática de pantalla y el portapapeles compartido.
 > 
@@ -78,5 +78,8 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 > <img width="611" height="386" alt="Captura de pantalla 2026-09-03 095815" src="https://github.com/user-attachments/assets/2ba8f398-ddd0-4f81-a64c-ecbee52d65e9" />
 > <img width="922" height="649" alt="Captura de pantalla 2026-09-03 100015" src="https://github.com/user-attachments/assets/b07ad4b9-fc4b-4cb2-9252-ac88e4265d87" />
 
+* Configuración y actualización de **WINDOWS**: Para ello debemos estar conectados a internet, por lo que cambiaremos la Red interna a NAT, la cual se comunicará con el Host para acceder a internet.
+>
+> <img width="611" height="386" alt="Captura de pantalla 2026-09-03 154117" src="https://github.com/user-attachments/assets/4b8a33dd-716f-491c-8b09-c29a9981ed88" />
 
 
