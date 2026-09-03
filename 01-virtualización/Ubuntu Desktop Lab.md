@@ -49,6 +49,7 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 ### 4. Configuración de Red
 * **Modo de red:** NAT (por defecto) o *Bridge*.
 > **¿Por qué?** El modo NAT le otorga salida a Internet inmediata a la VM para descargar actualizaciones de paquetes durante y después de la instalación.
+> 
 > <img width="608" height="384" alt="Captura de pantalla 2026-09-03 101100" src="https://github.com/user-attachments/assets/80e03fb9-4723-41c1-b621-a954339e3147" />
 
 
