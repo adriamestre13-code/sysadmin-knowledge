@@ -26,37 +26,33 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 ### 1. Nombre y Sistema Operativo
 * **Tipo:** Microsoft Windows
 * **Versión:** Windows 11 (64-bit)
-<img width="911" height="718" alt="Captura de pantalla 2026-09-02 190631" src="https://github.com/user-attachments/assets/3fbdec91-ea96-40d4-a058-b5be22aa2ece" />
+<img width="599" height="410" alt="Captura de pantalla 2026-09-03 093035" src="https://github.com/user-attachments/assets/dda776b8-0f3b-4e6d-a8b5-968857bbee31" />
 
 * **IMPORTANTE:** Desactivar la instalación desatendida, esto nos permitirá tener control total sobre la instalación del SO.
+
 
 ### 2. Memoria RAM y Procesadores (CPU)
 * **RAM:** 4096 MB (4 GB) mínimo / 8192 MB (8 GB) recomendado.
 * **CPUs:** 2 vCPUs mínimo.
+* **Habilitar EFI:** Activado.
 > **¿Por qué?** Windows 11 exige un mínimo de 4 GB de RAM y 2 núcleos para funcionar. Darle menos provocará un rendimiento extremadamente lento o errores en el instalador.
 >
-> <img width="911" height="718" alt="Captura de pantalla 2026-09-02 190832" src="https://github.com/user-attachments/assets/848659d4-ba4e-4990-bd25-ee9bc20d54a4" />
+> <img width="599" height="412" alt="image" src="https://github.com/user-attachments/assets/ed81c969-48c6-4dd9-be0a-68559fa3c808" />
 
 
-### 3. TPM 2.0 y Secure Boot
-* **Habilitar EFI:** Activado.
-* **Virtual TPM:** TPM 2.0.
-> **¿Por qué?** Son requisitos de hardware obligatorios impuestos por Microsoft para Windows 11. VirtualBox permite emular ambos componentes para evitar trucos en el registro durante la instalación.
-
-### 4. Disco Duro Virtual
-* **Tamaño:** 64 GB mínimo.
+### 3. Disco Duro Virtual
+* **Tamaño:** 64 GB mínimo (110 GB Recomendado para el Lab).
 * **Tipo de archivo:** VDI (VirtualBox Disk Image).
 * **Espacio asignado:** Desmarcar la opción de Reservar completamente.
 > **¿Por qué?** El espacio asignado dinámicamente solo consume espacio real en tu disco físico a medida que la VM llena el espacio, optimizando el almacenamiento del Host.
 >
-> <img width="911" height="719" alt="Captura de pantalla 2026-09-02 191110" src="https://github.com/user-attachments/assets/6d7fdd41-eaf4-4eaa-99b6-bc3a99a2edd5" />
+> <img width="603" height="413" alt="Captura de pantalla 2026-09-03 093604" src="https://github.com/user-attachments/assets/23e9293c-22f9-42d8-a62e-1f04e663b38b" />
 
 
-### 5. Configuración de Red
-* **Modo de red:** NAT (para acceso a internet) o *Bridge* (para simular un equipo real en tu red local). La arquitectura de red será explicada más adelante.
-> **¿Por qué?** NAT aísla la máquina virtual del resto de tus dispositivos domésticos mientras le da acceso a la red para actualizaciones.
+### 4. Configuración de Red
+* **Modo de red:** NAT (para acceso a internet) o *Bridge* (para simular un equipo real en tu red local). Interna (comunicación entre MV, ni con host ni con red).
 >
-> <img width="913" height="719" alt="Captura de pantalla 2026-09-02 191330" src="https://github.com/user-attachments/assets/9fcd6ab1-a812-4786-a5c8-19d6ed2b64cd" />
+> <img width="609" height="385" alt="Captura de pantalla 2026-09-03 093845" src="https://github.com/user-attachments/assets/5b5d0b4d-42f7-4d65-8a52-21c25ae8388a" />
 
 
 ---
@@ -67,14 +63,15 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 2. Presiona cualquier tecla cuando aparezca *“Press any key to boot from CD or DVD...”*.
 3. Selecciona idioma, formato de hora y teclado.
 4. Completa el asistente de instalación seleccionando la opción **Personalizada: instalar solo Windows (avanzado)**.
-5. Elige el disco sin asignar y haz clic en **Siguiente**.
+5. Crea una partición de 50 GB para instalar Windows.
+<img width="510" height="446" alt="Captura de pantalla 2026-09-03 094118" src="https://github.com/user-attachments/assets/c4e935d2-b565-4fb0-930a-8a83d2d747a9" />
+
 
 ---
 
 ## 📌 Configuración Inicial (OOBE)
 * Elige configuración para **Uso de trabajo o escuela** si vas a unir el equipo a un dominio (Active Directory) en el futuro, o configuración personal para pruebas generales.
-* Instala **VirtualBox Guest Additions** (*Dispositivos > Insertar imagen de CD de las Guest Additions (En mi MV no sale porque ya está instalado)*) una vez iniciado el escritorio para habilitar la resolución automática de pantalla y el portapapeles compartido.
+* Instala **VirtualBox Guest Additions** (*Dispositivos > Insertar imagen de CD de las Guest Additions*) una vez iniciado el escritorio para habilitar la resolución automática de pantalla y el portapapeles compartido.
 
-<img width="1087" height="707" alt="Captura de pantalla 2026-09-02 191511" src="https://github.com/user-attachments/assets/d06efd8f-08b9-4fdb-b2c9-a1531d590538" />
-<img width="1088" height="705" alt="Captura de pantalla 2026-09-02 191557" src="https://github.com/user-attachments/assets/41fd6964-7326-40b7-875e-87127615f85b" />
+
 
