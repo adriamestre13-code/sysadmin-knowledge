@@ -69,6 +69,6 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 ## 📌 Configuración Inicial Post-Instalación
 * Completa el asistente inicial de bienvenida en el escritorio.
 * Instala las **VirtualBox Guest Additions** desde la terminal para habilitar pantalla completa y portapapeles compartido:
-<img width="690" height="14" alt="Captura de pantalla 2026-09-03 105756" src="https://github.com/user-attachments/assets/eac7943e-ca5b-4ed7-b9b3-2b440a3a727c" />
+
 <img width="638" height="461" alt="Captura de pantalla 2026-09-03 104031" src="https://github.com/user-attachments/assets/9c1c3a65-cfec-4f09-b09b-a0e8f16d194e" />
 <img width="638" height="464" alt="Captura de pantalla 2026-09-03 104055" src="https://github.com/user-attachments/assets/cbe86f71-7de6-434d-b3e1-a33f9a39ed20" />
