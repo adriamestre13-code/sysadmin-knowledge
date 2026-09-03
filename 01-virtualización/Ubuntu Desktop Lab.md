@@ -27,25 +27,30 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 * **Tipo:** Linux
 * **Versión:** Ubuntu (64-bit)
 * Recuerda desmarcar la casilla de Instalación desatendida.
-<img width="913" height="719" alt="Captura de pantalla 2026-09-02 192106" src="https://github.com/user-attachments/assets/a1cd04bf-a999-4363-91ec-c0b5d32332bc" />
+<img width="599" height="412" alt="Captura de pantalla 2026-09-03 100318" src="https://github.com/user-attachments/assets/3eeb0f44-f5f4-4c39-93f7-f2c279bf7330" />
+
 
 ### 2. Memoria RAM y Procesadores (CPU)
 * **RAM:** 2048 MB (2 GB) mínimo / 4096 MB (4 GB) recomendado.
 * **CPUs:** 2 vCPUs recomendado.
 * **EFI:** Con Ubuntu Desktop, no es necesario usar EFI puesto que puede funcionar perfectamente con MBR.
 > **¿Por qué?** La interfaz gráfica de Ubuntu (GNOME) requiere al menos 2 GB de RAM para moverse con fluidez. Asignar 2 procesadores mejora notablemente la respuesta del sistema al compilar o actualizar software.
-> <img width="913" height="721" alt="Captura de pantalla 2026-09-02 192351" src="https://github.com/user-attachments/assets/a1e7329e-aa29-4da9-899a-7537a2e8fc41" />
+> <img width="599" height="409" alt="Captura de pantalla 2026-09-03 100435" src="https://github.com/user-attachments/assets/9469e12d-11ee-4fd0-85c5-82f34d62b247" />
+
 
 ### 3. Disco Duro Virtual
-* **Tamaño:** 25 GB mínimo / 40 GB recomendado.
+* **Tamaño:** 25 GB mínimo / 40 GB recomendado (Para este LAB se usarán 120GB).
 * **Tipo de archivo:** VDI (VirtualBox Disk Image).
 * **Reservar Completamente:** Deseleccionado.
 > **¿Por qué?** A diferencia de Windows, Linux es más ligero en almacenamiento. La asignación dinámica evita ocupar espacio inútil en tu disco físico hasta que instales paquetes o guardes archivos.
-> <img width="914" height="721" alt="Captura de pantalla 2026-09-02 192504" src="https://github.com/user-attachments/assets/ca350597-b492-40c3-853f-745f8af36fd2" />
+> <img width="601" height="410" alt="Captura de pantalla 2026-09-03 101023" src="https://github.com/user-attachments/assets/2463d004-f869-4ab0-af5c-94f88889f411" />
+
 
 ### 4. Configuración de Red
 * **Modo de red:** NAT (por defecto) o *Bridge*.
 > **¿Por qué?** El modo NAT le otorga salida a Internet inmediata a la VM para descargar actualizaciones de paquetes durante y después de la instalación.
+> <img width="608" height="384" alt="Captura de pantalla 2026-09-03 101100" src="https://github.com/user-attachments/assets/80e03fb9-4723-41c1-b621-a954339e3147" />
+
 
 ---
 
