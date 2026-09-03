@@ -1,10 +1,10 @@
-# 🐧 Creación de una Máquina Virtual con Ubuntu Desktop
+#  Creación de una Máquina Virtual con Ubuntu Desktop
 
 Guía paso a paso para desplegar Ubuntu Desktop en Oracle VirtualBox y la explicación técnica de cada decisión.
 
 ---
 
-## 🎯 ¿Por qué Ubuntu Desktop?
+##  ¿Por qué Ubuntu Desktop?
 
 Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de desarrollo. Dominar su versión Desktop es fundamental para IT Helpdesk y Sysadmin por varias razones:
 * **Ecosistema estándar:** Es la base de muchas infraestructuras empresariales y la referencia principal para aprender la terminal Linux.
@@ -14,14 +14,14 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 
 ---
 
-## 🛠️ Requisitos Previos
+##  Requisitos Previos
 
 * **Oracle VirtualBox** instalado.
 * [**ISO de Ubuntu Desktop**](https://ubuntu.com/download/desktop) (versión LTS descargable desde el sitio web oficial de Ubuntu).
 
 ---
 
-## ⚙️ Configuración Paso a Paso de la VM (y su explicación)
+##  Configuración Paso a Paso de la VM (y su explicación)
 
 ### 1. Nombre y Sistema Operativo
 * **Tipo:** Linux
@@ -55,7 +55,7 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 
 ---
 
-## 🚀 Proceso de Instalación
+##  Proceso de Instalación
 
 1. Inicia la VM y selecciona el archivo ISO de Ubuntu Desktop.
 2. En el menú de arranque del instalador (GRUB), selecciona **Try or Install Ubuntu**.
@@ -66,7 +66,7 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 
 ---
 
-## 📌 Configuración Inicial Post-Instalación
+##  Configuración Inicial Post-Instalación
 * Completa el asistente inicial de bienvenida en el escritorio.
 * Instala las **VirtualBox Guest Additions** desde la terminal para habilitar pantalla completa y portapapeles compartido:
 >
@@ -77,6 +77,7 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 > <img width="895" height="715" alt="Captura de pantalla 2026-09-03 112733" src="https://github.com/user-attachments/assets/a4b27e3f-b174-47b7-af34-560ee6a3a825" />
 
 * Configuración y actualización de **UBUNTU**: Para ello debemos estar conectados a internet, por lo que nuestra red debe estar en NAT.
+Comandos a introducir en la terminal:
 >
 >```bash
 >apt-get update
