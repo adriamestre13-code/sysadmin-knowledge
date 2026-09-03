@@ -72,11 +72,11 @@ A diferencia de las versiones Home o Pro, la edición **Enterprise** incluye her
 ## 📌 Configuración Inicial (OOBE)
 * Elige configuración para **Uso de trabajo o escuela** si vas a unir el equipo a un dominio (Active Directory) en el futuro, o configuración personal para pruebas generales.
 * Instala **VirtualBox Guest Additions** (*Dispositivos > Insertar imagen de CD de las Guest Additions*) una vez iniciado el escritorio para habilitar la resolución automática de pantalla y el portapapeles compartido.
-
-<img width="510" height="443" alt="Captura de pantalla 2026-09-03 095349" src="https://github.com/user-attachments/assets/5ba26a18-9867-4e40-8d75-19b6a520eec8" />
-<img width="509" height="443" alt="Captura de pantalla 2026-09-03 095414" src="https://github.com/user-attachments/assets/8127ab61-f450-41db-b855-7ca1eec4366a" />
-<img width="611" height="386" alt="Captura de pantalla 2026-09-03 095815" src="https://github.com/user-attachments/assets/2ba8f398-ddd0-4f81-a64c-ecbee52d65e9" />
-<img width="922" height="649" alt="Captura de pantalla 2026-09-03 100015" src="https://github.com/user-attachments/assets/b07ad4b9-fc4b-4cb2-9252-ac88e4265d87" />
+> 
+> <img width="510" height="443" alt="Captura de pantalla 2026-09-03 095349" src="https://github.com/user-attachments/assets/5ba26a18-9867-4e40-8d75-19b6a520eec8" />
+> <img width="509" height="443" alt="Captura de pantalla 2026-09-03 095414" src="https://github.com/user-attachments/assets/8127ab61-f450-41db-b855-7ca1eec4366a" />
+> <img width="611" height="386" alt="Captura de pantalla 2026-09-03 095815" src="https://github.com/user-attachments/assets/2ba8f398-ddd0-4f81-a64c-ecbee52d65e9" />
+> <img width="922" height="649" alt="Captura de pantalla 2026-09-03 100015" src="https://github.com/user-attachments/assets/b07ad4b9-fc4b-4cb2-9252-ac88e4265d87" />
 
 
 
