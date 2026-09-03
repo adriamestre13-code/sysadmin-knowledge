@@ -27,7 +27,7 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 * **Tipo:** Linux
 * **Versión:** Ubuntu (64-bit)
 * Recuerda desmarcar la casilla de Instalación desatendida.
-<img width="599" height="412" alt="Captura de pantalla 2026-09-03 100318" src="https://github.com/user-attachments/assets/3eeb0f44-f5f4-4c39-93f7-f2c279bf7330" />
+<img width="599" height="412" alt="Captura de pantalla 2026-09-03 100318" src="https://github.com/user-attachments/assets/142993e7-b920-4e52-b879-98f645d10d65" />
 
 
 ### 2. Memoria RAM y Procesadores (CPU)
