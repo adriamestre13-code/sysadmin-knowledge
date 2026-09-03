@@ -1,3 +1,4 @@
+<img width="638" height="463" alt="Captura de pantalla 2026-09-03 105022" src="https://github.com/user-attachments/assets/ab3440df-9fac-4777-b451-484e8accfe9f" />
 # 🐧 Creación de una Máquina Virtual con Ubuntu Desktop
 
 Guía paso a paso para desplegar Ubuntu Desktop en Oracle VirtualBox y la explicación técnica de cada decisión.
@@ -72,3 +73,5 @@ Ubuntu es la distribución de Linux más utilizada en entornos corporativos y de
 
 <img width="638" height="461" alt="Captura de pantalla 2026-09-03 104031" src="https://github.com/user-attachments/assets/9c1c3a65-cfec-4f09-b09b-a0e8f16d194e" />
 <img width="638" height="464" alt="Captura de pantalla 2026-09-03 104055" src="https://github.com/user-attachments/assets/cbe86f71-7de6-434d-b3e1-a33f9a39ed20" />
+<img width="638" height="463" alt="Captura de pantalla 2026-09-03 105022" src="https://github.com/user-attachments/assets/6246ae29-4238-497f-a7f5-6859d78b53fa" />
+
