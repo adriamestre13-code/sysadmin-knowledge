@@ -1,0 +1,39 @@
+# Implantación y Gestión de Sistemas RAID en Windows Server 2022
+
+En el ámbito de la administración de sistemas informáticos, la disponibilidad, el rendimiento y la integridad de los datos son pilares fundamentales para garantizar la continuidad del negocio. A medida que las organizaciones crecen, el volumen de información y la criticidad de las operaciones exigen infraestructuras capaces de tolerar fallos de hardware sin interrumpir el servicio. 
+
+En este laboratorio práctico, abordaremos la configuración y gestión del almacenamiento redundante dentro del entorno de Windows Server 2022. A través de un enfoque paso a paso, simularé el despliegue de una máquina virtual en un entorno de pruebas donde configuraremos diferentes arreglos de almacenamiento y evaluaremos la respuesta del sistema ante fallos de discos físicos.
+
+---
+
+## ¿Qué es un RAID y para qué sirve?
+
+**RAID** es el acrónimo de *Redundant Array of Independent Disks* (Matriz Redundante de Discos Independientes). Consiste en una tecnología que combina múltiples unidades de almacenamiento físico (discos duros o SSDs) para que el sistema operativo las reconozca como un único volumen lógico o unidad de almacenamiento.
+
+### ¿Para qué sirve?
+
+Dependiendo del tipo de configuración o nivel de RAID seleccionado, este sistema permite alcanzar distintos objetivos técnicos:
+
+1. **Incremento del rendimiento (Velocidad):** Al distribuir la lectura y escritura de datos entre varios discos en paralelo, se aceleran las operaciones de entrada/salida (I/O).
+2. **Tolerancia a fallos y redundancia (Seguridad):** Permite mantener la disponibilidad de los datos aunque uno o más discos fallen, mediante el duplicado en espejo o la generación de bloques de paridad.
+3. **Optimización y consolidación del espacio:** Facilita la creación de grandes volúmenes de almacenamiento combinando la capacidad de varios discos físicos.
+
+Existen soluciones RAID basadas en hardware (controladoras dedicadas) y basadas en software. En esta guía nos centraremos en el **RAID por software** que proporciona de forma nativa Windows Server 2022 a través del Administrador de Discos (Dynamic Disks).
+
+---
+
+## Objetivos del Laboratorio
+
+A lo largo de este documento y mediante los casos prácticos guiados paso a paso, se cumplirán los siguientes objetivos de aprendizaje y configuración técnica:
+
+- **Despliegue del entorno base:** Configurar una máquina virtual con Windows Server 2022 e incorporar un total de 10 discos virtuales adicionales con distintas capacidades para las prácticas.
+- **Implementación de RAID 0 (Striped Volume):** Crear un volumen distribuido en bandas con 2 discos de 30 GB (acotando la partición a 8 GB por disco) para maximizar la velocidad de acceso.
+- **Configuración de Volumen Distribuido (Spanned Volume):** Crear un volumen extendido combinando el espacio libre disponible en discos y expandirlo agregando un disco de 16 GB completo.
+- **Análisis comparativo:** Comprender y documentar las diferencias clave en rendimiento, flexibilidad y tolerancia a fallos entre RAID 0 y un Volumen Distribuido.
+- **Implementación de RAID 1 (Mirrored Volume):** Configurar un volumen en espejo con 2 discos de 6 GB para garantizar la tolerancia a fallos mediante la duplicación exacta de datos.
+- **Implementación de RAID 5:** Crear un volumen redundante con paridad distribuida empleando 3 discos de 8 GB, analizando la capacidad real útil frente al espacio reservado para la paridad.
+- **Simulación y recuperación ante fallos en RAID 1:** Simular una avería forzando el estado offline de un disco, verificar el acceso continuo a los datos y reconstruir el conjunto reemplazando la unidad averiada por un nuevo disco espejo.
+- **Simulación y recuperación ante fallos en RAID 5:** Forzar la caída de un disco del conjunto RAID 5, comprobar la continuidad del servicio sin pérdida de información y reparar el volumen utilizando la función "Repair Volume" con un disco de repuesto.
+
+---
+
