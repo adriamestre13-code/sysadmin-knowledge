@@ -2,8 +2,6 @@
 
 ¡Bienvenido/a a mi base de conocimiento! Este repositorio funciona como una segunda mente donde documento mi progreso, guías paso a paso, automatizaciones y procedimientos técnicos. 
 
-Mi objetivo en este repositorio es documentar todos y cada uno de mis laboratorios relacionados en el entorno ASIR / IT Helpdesk.
-
 ---
 
 ##  Áreas de Conocimiento
@@ -20,12 +18,6 @@ Mi objetivo en este repositorio es documentar todos y cada uno de mis laboratori
 * Troubleshooting de red (`ping`, `traceroute`, `netstat`, `nslookup`).
 * Modelos TCP/IP y OSI aplicados a la práctica.
 * Configuración de VPNs, routers y switches básicos.
-
----
-
-##  Estructura del Repositorio
-
-
 
 ---
 
